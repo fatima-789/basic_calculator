@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-center-x {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-y {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-y{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-space-x{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-dark{
+    color: black;
+}
+
+.text-light{
+    color: white;
+}
