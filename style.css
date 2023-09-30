@@ -115,3 +115,15 @@ input {
     margin: 0;
   }
 }
+
+@media screen and (max-width:768px) {
+  .text h1 {
+    font-size: xx-large;
+  }
+  .template {
+    width: auto;
+  }
+  .flex-space-x {
+    flex-direction: column;
+  }
+}
